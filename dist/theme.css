@@ -84,6 +84,17 @@ body{
     transform: none;
   }
 }
+.navbar > .container, .navbar > .container-fluid {
+    padding-top: 0 px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: none !important;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 @keyframes customFadeInUp {
   0% {
     opacity: 0;
